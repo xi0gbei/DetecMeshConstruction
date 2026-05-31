@@ -11,7 +11,6 @@ The framework adopts a hierarchical architecture that decouples **geometric prim
 ## Features
 
 - **Parameterized detector modeling** — detectors are described by a compact set of numeric parameters read from binary `.dtc` files
-- **Automatic coincident-surface separation** — a `SurfaceRegistry` module detects and algorithmically separates coincident planar faces in nested geometries (e.g., dead-layer / crystal / borehole interfaces), ensuring unambiguous material identification in Monte Carlo transport
 - **Standard VRML 2.0 export** — output files can be inspected in any 3D viewer for visual verification
 - **Lightweight and self-contained** — depends only on the C++ standard library; no external geometry kernel or mesh library required
 - **Extensible** — new geometry primitives and new detector types are added by subclassing the `Geometry` and `PhysicalGeometry` abstract interfaces, respectively
